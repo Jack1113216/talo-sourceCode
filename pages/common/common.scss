@@ -1,0 +1,90 @@
+body * {
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+body {
+	font-family: PingFangSC-Regular, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC-Light, Microsoft YaHei;
+}
+button {
+	margin: 0;
+	padding: 0;
+	border: 1px solid transparent;
+	outline: none;
+	background-color: transparent;
+}
+
+button:active {
+	opacity: 0.6;
+}
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+.justify-start {
+	display: flex;
+	justify-content: flex-start;
+}
+.justify-center {
+	display: flex;
+	justify-content: center;
+}
+
+.justify-end {
+	display: flex;
+	justify-content: flex-end;
+}
+.justify-evenly {
+	display: flex;
+	justify-content: space-evenly;
+}
+.justify-around {
+	display: flex;
+	justify-content: space-around;
+}
+.justify-between {
+	display: flex;
+	justify-content: space-between;
+}
+.align-start {
+	display: flex;
+	align-items: flex-start;
+}
+.align-center {
+	display: flex;
+	align-items: center;
+}
+.align-end {
+	display: flex;
+	align-items: flex-end;
+}
+.total-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.text {
+	color: rgba(72, 72, 72, 1);
+	overflow-wrap: break-word;
+	font-family: Noto Sans SC;
+	text-align: left;
+	white-space: nowrap;
+}
+.mid_line {
+	text-decoration: line-through 5rpx;
+}
+.small_mid_line {
+	text-decoration: line-through 2rpx;
+}
+.ellipsis_text {
+	overflow: clip;
+	text-overflow: ellipsis; /* 显示省略符号来代表被修剪的文本 */
+}
+.two_line_text {
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* 限制显示两行 */
+	-webkit-box-orient: vertical;
+}

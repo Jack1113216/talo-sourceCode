@@ -1,0 +1,87 @@
+.video_box {
+	position: relative;
+	height: 362rpx;
+	width: 686rpx;
+	border-radius: 20rpx;
+	background-color: rgba(60, 56, 56, 1);
+	overflow: hidden;
+	margin: 14rpx 32rpx 60rpx 32rpx;
+	.video_obj_group {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		.info_group {
+			margin-left: 24rpx;
+			margin-top: 20rpx;
+			height: 80rpx;
+			.info_head {
+				width: 80rpx;
+				height: 80rpx;
+				border-radius: 50%;
+				background-color: rgba(196, 196, 196, 1);
+				margin-right: 24rpx;
+			}
+			.info_name_text {
+				@extend .text;
+				color: rgba(255, 255, 255, 1);
+				font-size: 28rpx;
+				font-weight: 400;
+				line-height: 40rpx;
+			}
+			.info_describe_text {
+				@extend .text;
+				color: rgba(255, 255, 255, 1);
+				font-size: 24rpx;
+				font-weight: 400;
+				line-height: 34rpx;
+				letter-spacing: 0px;
+				text-align: left;
+			}
+		}
+		.play_btn {
+			width: 96rpx;
+			height: 96rpx;
+			margin-top: 34rpx;
+			margin-left: 294rpx;
+		}
+		.share_box {
+			width: 64rpx;
+			height: 64rpx;
+			border-radius: 50%;
+			background-color: rgba(255, 255, 255, 0.09);
+			margin-left: 20rpx;
+			margin-top: 48rpx;
+			.share_icon {
+				width: 64rpx;
+				height: 64rpx;
+			}
+		}
+	}
+}
+.client_video_box {
+	width: 648rpx;
+	height: 628rpx;
+
+	position: relative;
+	background-color: rgba(60, 56, 56, 1);
+	overflow: hidden;
+	.client_video_obj_group {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		.play_btn {
+			width: 96rpx;
+			height: 96rpx;
+			margin: 0 0rpx auto auto;
+			background-color: rgba(41, 240, 181, 1);
+			.play_btn_icon {
+				width: 38rpx;
+				height: 38rpx;
+			}
+		}
+	}
+}

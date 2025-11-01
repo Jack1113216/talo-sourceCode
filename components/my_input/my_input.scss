@@ -1,0 +1,45 @@
+.input_title {
+	@extend .text;
+	white-space: break-spaces;
+	color: rgba(72, 72, 72, 1);
+	font-size: 20rpx;
+	font-weight: 700;
+	line-height: 28rpx;
+}
+.input_box {
+	height: 88rpx;
+	margin-top: 10rpx;
+	background-color: #fff;
+	border: 2rpx solid rgba(172, 172, 172, 1);
+	padding: 24rpx 14rpx 24rpx 14rpx;
+	// justify-content: flex-end;
+}
+.radiu_input_box {
+	width: 622rpx;
+	height: 72rpx;
+	margin-top: 12rpx;
+	padding: 16rpx 14rpx 0rpx 14rpx;
+	box-sizing: border-box;
+	border: 2rpx solid rgba(172, 172, 172, 1);
+	border-radius: 8rpx;
+	background: rgba(255, 255, 255, 1);
+}
+.input_text {
+	@extend .text;
+	color: rgba(72, 72, 72, 1);
+	font-size: 26rpx;
+	font-weight: 400;
+	line-height: 40rpx;
+}
+.input_plac_text {
+	@extend .text;
+	color: rgba(187, 187, 187, 1);
+	font-size: 26rpx;
+	font-weight: 400;
+	line-height: 40rpx;
+}
+.pwd_eye {
+	width: 30rpx;
+	height: 30rpx;
+	margin: 5rpx 0rpx 0 10rpx;
+}

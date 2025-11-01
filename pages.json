@@ -1,0 +1,38 @@
+{
+	"pages": [{
+			"path": "pages/main/main_home/main_home",
+			"style": {}
+		},
+		{
+			"path": "pages/account/account_register/account_register",
+			"style": {}
+		},
+		{
+			"path": "pages/account/account_login/account_login",
+			"style": {}
+		},
+		{
+			"path": "pages/account/account_reset_pwd/account_reset_pwd",
+			"style": {}
+		},
+		{
+			"path": "pages/introduction_page/introduction_page",
+			"style": {}
+		},
+		{
+			"path": "pages/fund/fund_page/fund_page",
+			"style": {}
+		}
+	],
+	"tabBar": {
+		"custom": true
+	},
+	"globalStyle": {
+		"autoscan": true,
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
