@@ -3,10 +3,23 @@
 	width: 750rpx;
 	height: 290rpx;
 	.introduction_bg {
+		position: absolute;
 		width: 100%;
 		height: 100%;
+		top: 0;
+		left: 0;
 	}
-
+	.apply_text {
+		position: relative;
+		@extend .text;
+		color: #fff;
+		font-size: 40rpx;
+		font-weight: 700;
+		line-height: 50rpx;
+		text-align: center;
+		width: 100%;
+		margin-top: 20rpx;
+	}
 	.bg_btn {
 		position: absolute;
 		background-color: #fff;

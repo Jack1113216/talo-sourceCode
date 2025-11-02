@@ -2,8 +2,9 @@
 	<view class="page">
 		<language_bar />
 		<title_bar />
-		<view class="bg_group">
-			<image class="introduction_bg" src="/static/introduction/introduction_bg.png" mode="widthFix" @click="toFund()" />
+		<view class="bg_group flex-col">
+			<image class="introduction_bg" src="/static/introduction/introduction_bg.png" mode="widthFix" />
+			<view class="apply_text" @click="toFund()">{{ apply_text }}</view>
 			<view class="bg_btn total-center" style="right: 114rpx">
 				<view class="btn_text">{{ home_txt }}</view>
 			</view>
@@ -24,6 +25,7 @@
 export default {
 	data() {
 		return {
+			apply_text: 'APPLY',
 			home_txt: 'HOME',
 			raise_txt: 'RAISE',
 			intro_title: 'BETA SITE | UNDER DEVELOPMENT',
