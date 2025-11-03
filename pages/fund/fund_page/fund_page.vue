@@ -219,6 +219,11 @@ export default {
 			platforms: platforms
 		};
 	},
+	onLoad() {
+		uni.setNavigationBarTitle({
+			title: 'talotalk'
+		});
+	},
 	methods: {
 		openLink(platform) {
 			window.open(platform.link);

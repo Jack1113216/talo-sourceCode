@@ -37,6 +37,11 @@ export default {
 			login_link: 'Back To Login'
 		};
 	},
+	onLoad() {
+		uni.setNavigationBarTitle({
+			title: 'talotalk'
+		});
+	},
 	methods: {
 		toLogin() {
 			uni.navigateTo({

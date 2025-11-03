@@ -53,6 +53,11 @@ export default {
 			email_link: "Didn'treceive email conhrmation instructions?"
 		};
 	},
+	onLoad() {
+		uni.setNavigationBarTitle({
+			title: 'talotalk'
+		});
+	},
 	methods: {
 		forgetPwd() {
 			uni.navigateTo({

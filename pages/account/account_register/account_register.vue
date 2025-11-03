@@ -67,6 +67,11 @@ export default {
 			]
 		};
 	},
+	onLoad() {
+		uni.setNavigationBarTitle({
+			title: 'talotalk'
+		});
+	},
 	methods: {
 		chooseCountry(item) {
 			this.countryCode = item.dial_code;

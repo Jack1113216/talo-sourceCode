@@ -291,6 +291,11 @@ export default {
 			subscribe_text: 'SUBSCRIBE'
 		};
 	},
+	onLoad() {
+		uni.setNavigationBarTitle({
+			title: 'talotalk'
+		});
+	},
 	methods: {
 		getProgress(item) {
 			var progress = (item.now_val / item.target) * 100;
