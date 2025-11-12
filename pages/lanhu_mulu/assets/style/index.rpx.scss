@@ -1,0 +1,362 @@
+.page {
+	background-color: rgba(255, 255, 255, 1);
+	position: relative;
+	width: 750rpx;
+	height: 1624rpx;
+	overflow: hidden;
+	.box_1 {
+		position: relative;
+		width: 750rpx;
+		height: 520rpx;
+		.box_2 {
+			width: 606rpx;
+			height: 44rpx;
+			margin: 20rpx 0 0 78rpx;
+			.text_1 {
+				width: 74rpx;
+				height: 44rpx;
+				overflow-wrap: break-word;
+				color: rgba(0, 0, 0, 1);
+				font-size: 34rpx;
+				font-family: SF Pro-Semibold;
+				font-weight: 600;
+				text-align: center;
+				white-space: nowrap;
+				line-height: 44rpx;
+			}
+			.group_1 {
+				background-color: rgba(0, 0, 0, 1);
+				width: 40rpx;
+				height: 26rpx;
+				margin: 10rpx 0 0 376rpx;
+			}
+			.group_2 {
+				background-color: rgba(0, 0, 0, 1);
+				width: 36rpx;
+				height: 26rpx;
+				margin: 10rpx 0 0 12rpx;
+			}
+			.image_1 {
+				width: 56rpx;
+				height: 26rpx;
+				margin: 10rpx 0 0 12rpx;
+			}
+		}
+		.box_3 {
+			background-color: rgba(230, 234, 237, 1);
+			border-radius: 32px;
+			width: 710rpx;
+			height: 64rpx;
+			margin: 28rpx 0 0 20rpx;
+			.text_2 {
+				width: 218rpx;
+				height: 44rpx;
+				overflow-wrap: break-word;
+				color: rgba(17, 17, 17, 1);
+				font-size: 28rpx;
+				font-family: PingFang TC-Medium;
+				font-weight: 500;
+				text-align: center;
+				white-space: nowrap;
+				line-height: 44rpx;
+				margin: 10rpx 0 0 246rpx;
+			}
+			.thumbnail_1 {
+				width: 30rpx;
+				height: 32rpx;
+				margin: 16rpx 36rpx 0 180rpx;
+			}
+		}
+		.box_4 {
+			background-color: rgba(102, 102, 102, 1);
+			width: 750rpx;
+			height: 100rpx;
+			margin-top: 14rpx;
+		}
+		.text_3 {
+			width: 192rpx;
+			height: 44rpx;
+			overflow-wrap: break-word;
+			color: rgba(36, 62, 88, 1);
+			font-size: 34rpx;
+			font-family: PingFang TC-Semibold;
+			font-weight: 600;
+			text-align: center;
+			white-space: nowrap;
+			line-height: 44rpx;
+			margin-left: 734rpx;
+		}
+		.label_1 {
+			width: 44rpx;
+			height: 44rpx;
+			margin: 102rpx 0 60rpx 672rpx;
+		}
+		.box_5 {
+			background-color: rgba(255, 255, 255, 1);
+			position: absolute;
+			left: 2rpx;
+			top: 270rpx;
+			width: 750rpx;
+			height: 98rpx;
+			border: 1px solid rgba(187, 183, 183, 1);
+			.thumbnail_2 {
+				width: 26rpx;
+				height: 24rpx;
+				margin: 38rpx 0 0 304rpx;
+			}
+			.text_4 {
+				width: 226rpx;
+				height: 44rpx;
+				overflow-wrap: break-word;
+				color: rgba(154, 154, 154, 1);
+				font-size: 26rpx;
+				font-family: PingFang TC-Regular;
+				font-weight: NaN;
+				text-align: center;
+				white-space: nowrap;
+				line-height: 44rpx;
+				margin: 28rpx 34rpx 0 160rpx;
+			}
+		}
+	}
+	.image_2 {
+		width: 710rpx;
+		height: 402rpx;
+		margin: -2rpx 0 0 22rpx;
+	}
+	.box_6 {
+		height: 796rpx;
+		background: url(/static/lanhu_mulu/FigmaDDSSlicePNG9e3511fecccbdc9fbc2e2926a2bb4328.png) 100% no-repeat;
+		background-size: 100% 100%;
+		width: 752rpx;
+		margin: 20rpx 0 112rpx 0;
+		.block_1 {
+			background-color: rgba(255, 255, 255, 1);
+			height: 136rpx;
+			border: 1px solid rgba(0, 0, 0, 0.13);
+			width: 750rpx;
+			margin: 548rpx 0 0 2rpx;
+			.block_2 {
+				width: 658rpx;
+				height: 62rpx;
+				margin: 18rpx 0 0 36rpx;
+				.box_7 {
+					background-color: rgba(125, 129, 133, 1);
+					width: 40rpx;
+					height: 30rpx;
+					margin-top: 16rpx;
+				}
+				.thumbnail_3 {
+					width: 40rpx;
+					height: 30rpx;
+					margin: 16rpx 0 0 110rpx;
+				}
+				.box_8 {
+					background-color: rgba(234, 233, 238, 1);
+					width: 62rpx;
+					height: 62rpx;
+					margin-left: 110rpx;
+				}
+				.text-wrapper_1 {
+					border-radius: 6px;
+					height: 44rpx;
+					border: 2px solid rgba(138, 138, 138, 1);
+					width: 44rpx;
+					margin: 10rpx 0 0 110rpx;
+					.text_5 {
+						width: 24rpx;
+						height: 44rpx;
+						overflow-wrap: break-word;
+						color: rgba(138, 138, 138, 1);
+						font-size: 20rpx;
+						font-family: PingFang TC-Medium;
+						font-weight: 500;
+						text-align: center;
+						line-height: 44rpx;
+						margin-left: 10rpx;
+					}
+				}
+				.box_9 {
+					background-color: rgba(131, 133, 134, 1);
+					width: 32rpx;
+					height: 8rpx;
+					margin: 28rpx 0 0 110rpx;
+				}
+			}
+			.block_3 {
+				width: 322rpx;
+				height: 10rpx;
+				margin: 20rpx 0 26rpx 214rpx;
+				.group_3 {
+					background-color: rgba(8, 9, 9, 1);
+					border-radius: 20px;
+					width: 322rpx;
+					height: 10rpx;
+				}
+			}
+		}
+	}
+	.box_10 {
+		position: absolute;
+		left: 0;
+		top: 920rpx;
+		width: 750rpx;
+		height: 22rpx;
+		.box_11 {
+			background-color: rgba(255, 255, 255, 1);
+			height: 1318rpx;
+			border: 1px solid rgba(0, 0, 0, 0.13);
+			margin-top: -750rpx;
+			width: 526rpx;
+			position: relative;
+			.group_4 {
+				background-color: rgba(255, 255, 255, 1);
+				width: 438rpx;
+				height: 432rpx;
+				margin: 4rpx 0 0 36rpx;
+				.text-wrapper_2 {
+					height: 132rpx;
+					border: 1px solid rgba(229, 229, 229, 1);
+					width: 438rpx;
+					.text_6 {
+						width: 90rpx;
+						height: 44rpx;
+						overflow-wrap: break-word;
+						color: rgba(17, 17, 17, 1);
+						font-size: 32rpx;
+						font-family: PingFang TC-Medium;
+						font-weight: 500;
+						text-align: center;
+						white-space: nowrap;
+						line-height: 44rpx;
+						margin-top: 44rpx;
+					}
+				}
+				.text-wrapper_3 {
+					height: 100rpx;
+					border: 1px solid rgba(229, 229, 229, 1);
+					width: 438rpx;
+					.text_7 {
+						width: 138rpx;
+						height: 44rpx;
+						overflow-wrap: break-word;
+						color: rgba(17, 17, 17, 1);
+						font-size: 32rpx;
+						font-family: PingFang TC-Medium;
+						font-weight: 500;
+						text-align: center;
+						white-space: nowrap;
+						line-height: 44rpx;
+						margin-top: 28rpx;
+					}
+				}
+				.text-wrapper_4 {
+					height: 100rpx;
+					border: 1px solid rgba(229, 229, 229, 1);
+					width: 438rpx;
+					.text_8 {
+						width: 84rpx;
+						height: 44rpx;
+						overflow-wrap: break-word;
+						color: rgba(17, 17, 17, 1);
+						font-size: 32rpx;
+						font-family: PingFang TC-Medium;
+						font-weight: 500;
+						text-align: center;
+						white-space: nowrap;
+						line-height: 44rpx;
+						margin-top: 28rpx;
+					}
+				}
+				.text-wrapper_5 {
+					height: 100rpx;
+					border: 1px solid rgba(229, 229, 229, 1);
+					width: 438rpx;
+					.text_9 {
+						width: 142rpx;
+						height: 44rpx;
+						overflow-wrap: break-word;
+						color: rgba(17, 17, 17, 1);
+						font-size: 32rpx;
+						font-family: PingFang TC-Medium;
+						font-weight: 500;
+						text-align: center;
+						white-space: nowrap;
+						line-height: 44rpx;
+						margin-top: 28rpx;
+					}
+				}
+			}
+			.group_5 {
+				position: absolute;
+				left: 228rpx;
+				top: 770rpx;
+				width: 522rpx;
+				height: 684rpx;
+				.section_1 {
+					background-color: rgba(255, 255, 255, 1);
+					width: 270rpx;
+					height: 64rpx;
+					border: 1px solid rgba(0, 0, 0, 0.13);
+					margin: 424rpx 0 0 154rpx;
+					.image-text_1 {
+						width: 184rpx;
+						height: 44rpx;
+						margin: 10rpx 0 0 20rpx;
+						.image_3 {
+							width: 46rpx;
+							height: 36rpx;
+							margin-top: 4rpx;
+						}
+						.text-group_1 {
+							width: 122rpx;
+							height: 44rpx;
+							overflow-wrap: break-word;
+							color: rgba(17, 17, 17, 1);
+							font-size: 26rpx;
+							font-family: PingFang TC-Medium;
+							font-weight: 500;
+							text-align: center;
+							white-space: nowrap;
+							line-height: 44rpx;
+						}
+					}
+				}
+				.section_2 {
+					background-color: rgba(255, 255, 255, 1);
+					width: 270rpx;
+					height: 64rpx;
+					border: 1px solid rgba(0, 0, 0, 0.13);
+					margin: -4rpx 0 136rpx 154rpx;
+					.image-text_2 {
+						width: 150rpx;
+						height: 44rpx;
+						margin: 10rpx 0 0 20rpx;
+						.image_4 {
+							width: 46rpx;
+							height: 32rpx;
+							margin-top: 8rpx;
+						}
+						.text-group_2 {
+							width: 88rpx;
+							height: 44rpx;
+							overflow-wrap: break-word;
+							color: rgba(154, 154, 154, 1);
+							font-size: 26rpx;
+							font-family: PingFang TC-Regular;
+							font-weight: NaN;
+							text-align: center;
+							white-space: nowrap;
+							line-height: 44rpx;
+						}
+					}
+					.thumbnail_4 {
+						width: 12rpx;
+						height: 22rpx;
+						margin: 26rpx 8rpx 0 80rpx;
+					}
+				}
+			}
+		}
+	}
+}

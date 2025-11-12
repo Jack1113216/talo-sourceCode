@@ -1,11 +1,13 @@
 [{
 		"name": "English",
-		"simple_name": "En",
-		"data": ""
+		"simple_name": "en",
+		"data": "",
+		"icon": "/uni_modules/hy-countryPicker/static/flags/gb.png"
 	},
 	{
 		"name": "中文(繁體)",
-		"simple_name": "Tw",
-		"data": ""
+		"simple_name": "tw",
+		"data": "",
+		"icon": "/uni_modules/hy-countryPicker/static/flags/tw.png"
 	}
 ]

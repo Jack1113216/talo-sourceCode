@@ -1,0 +1,176 @@
+.page {
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 750rpx;
+  height: 1624rpx;
+  overflow: hidden;
+  .box_1 {
+    background-color: rgba(237, 237, 237, 1);
+    height: 160rpx;
+    width: 750rpx;
+    .group_1 {
+      width: 606rpx;
+      height: 44rpx;
+      margin: 24rpx 0 0 92rpx;
+      .text_1 {
+        width: 74rpx;
+        height: 44rpx;
+        overflow-wrap: break-word;
+        color: rgba(0, 0, 0, 1);
+        font-size: 34rpx;
+        font-family: SF Pro-Semibold;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 44rpx;
+      }
+      .block_1 {
+        background-color: rgba(0, 0, 0, 1);
+        width: 40rpx;
+        height: 26rpx;
+        margin: 10rpx 0 0 376rpx;
+      }
+      .block_2 {
+        background-color: rgba(0, 0, 0, 1);
+        width: 36rpx;
+        height: 26rpx;
+        margin: 10rpx 0 0 12rpx;
+      }
+      .image_1 {
+        width: 56rpx;
+        height: 26rpx;
+        margin: 8rpx 0 0 12rpx;
+      }
+    }
+    .group_2 {
+      width: 680rpx;
+      height: 44rpx;
+      margin: 22rpx 0 26rpx 36rpx;
+      .thumbnail_1 {
+        width: 28rpx;
+        height: 28rpx;
+        margin-top: 8rpx;
+      }
+      .text_2 {
+        width: 192rpx;
+        height: 44rpx;
+        overflow-wrap: break-word;
+        color: rgba(17, 17, 17, 1);
+        font-size: 34rpx;
+        font-family: PingFang TC-Semibold;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 44rpx;
+        margin-left: 216rpx;
+      }
+      .box_2 {
+        background-color: rgba(22, 22, 22, 1);
+        width: 32rpx;
+        height: 8rpx;
+        margin: 30rpx 0 0 212rpx;
+      }
+    }
+  }
+  .box_3 {
+    position: relative;
+    width: 750rpx;
+    height: 248rpx;
+    .text-wrapper_1 {
+      width: 192rpx;
+      height: 44rpx;
+      margin: -2rpx 0 0 732rpx;
+      .text_3 {
+        width: 192rpx;
+        height: 44rpx;
+        overflow-wrap: break-word;
+        color: rgba(36, 62, 88, 1);
+        font-size: 34rpx;
+        font-family: PingFang TC-Semibold;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 44rpx;
+      }
+    }
+    .image-wrapper_1 {
+      width: 678rpx;
+      height: 44rpx;
+      margin: 100rpx 0 62rpx 36rpx;
+      .thumbnail_2 {
+        width: 40rpx;
+        height: 36rpx;
+        margin-top: 6rpx;
+      }
+      .label_1 {
+        width: 44rpx;
+        height: 44rpx;
+      }
+    }
+    .box_4 {
+      background-color: rgba(255, 255, 255, 1);
+      position: absolute;
+      left: 0;
+      top: -2rpx;
+      width: 750rpx;
+      height: 98rpx;
+      border: 1px solid rgba(187, 183, 183, 1);
+      .thumbnail_3 {
+        width: 26rpx;
+        height: 24rpx;
+        margin: 38rpx 0 0 304rpx;
+      }
+      .text_4 {
+        width: 68rpx;
+        height: 44rpx;
+        overflow-wrap: break-word;
+        color: rgba(154, 154, 154, 1);
+        font-size: 26rpx;
+        font-family: PingFang TC-Regular;
+        font-weight: NaN;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 44rpx;
+        margin: 28rpx 0 0 12rpx;
+      }
+      .thumbnail_4 {
+        width: 32rpx;
+        height: 32rpx;
+        margin: 34rpx 0 0 38rpx;
+      }
+      .text_5 {
+        width: 226rpx;
+        height: 44rpx;
+        overflow-wrap: break-word;
+        color: rgba(154, 154, 154, 1);
+        font-size: 26rpx;
+        font-family: PingFang TC-Regular;
+        font-weight: NaN;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 44rpx;
+        margin: 28rpx 34rpx 0 10rpx;
+      }
+    }
+  }
+  .image_2 {
+    width: 710rpx;
+    height: 402rpx;
+    margin: -2rpx 0 0 20rpx;
+  }
+  .box_5 {
+    height: 796rpx;
+    background: url(/static/lanhu_shouye/FigmaDDSSlicePNG69ed02ab49e779d1ab624befb9f9ec33.png)
+      100% no-repeat;
+    background-size: 100% 100%;
+    width: 752rpx;
+    margin: 20rpx 0 0 -2rpx;
+    .group_3 {
+      background-color: rgba(8, 9, 9, 1);
+      border-radius: 20px;
+      width: 322rpx;
+      height: 10rpx;
+      margin: 772rpx 0 0 228rpx;
+    }
+  }
+}

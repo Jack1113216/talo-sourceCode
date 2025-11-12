@@ -1,7 +1,5 @@
 <template>
-	<view class="page" style="background-color: #fff">
-		<language_bar />
-		<title_bar />
+	<base_page bg-color="#fff">
 		<video_player />
 		<view class="wave_blue_box">
 			<image class="wave_bg" src="/static/main/wave_bg.png" mode="heightFix" />
@@ -71,26 +69,8 @@
 			:interval="5000"
 			:duration="500"
 		>
-			<swiper-item v-for="(swipper, index) in swipper_list" :key="index">
-				<view class="swiper-item">
-					<image class="swiper-img" :src="swipper.img" mode="aspectFill" />
-					<view class="swiper_introduce_box">
-						<view class="swiper_introduce">{{ swipper.introduce }}</view>
-					</view>
-					<view class="swipper_day_text" style="margin-top: 16rpx; margin-left: 28rpx">{{ swipper.day }}{{ day_text }}</view>
-					<view class="swipper_title_text">{{ swipper.title }}</view>
-					<view class="flex-row justify-between raise_group">
-						<view class="swipper_day_text">{{ raised_text }}${{ swipper.now_val }}</view>
-						<view class="swipper_day_text">{{ getProgress(swipper) }}</view>
-					</view>
-					<view class="progress_bar_bg">
-						<view class="progress_bar" :style="getProgressLength(swipper)"></view>
-					</view>
-					<view class="total_group flex-row">
-						<view class="total_text">{{ target_text }}</view>
-						<view class="total_val">${{ swipper.target }}</view>
-					</view>
-				</view>
+			<swiper-item v-for="(project, index) in project_items" :key="index">
+				<project_box :project_info="project" />
 			</swiper-item>
 		</swiper>
 
@@ -156,14 +136,19 @@
 			</view>
 		</view>
 		<black_bottom />
-	</view>
+	</base_page>
 </template>
 
 <script>
 import video_player from '@/components/main/video_player/video_player.vue';
 import client_videoVue from '@/components/main/video_player/client_video.vue';
+import project_box from '@/components/project/project_box/project_box.vue';
 export default {
-	components: { video_player, client_videoVue },
+	components: {
+		video_player,
+		client_videoVue,
+		project_box
+	},
 	data() {
 		return {
 			wave_title: 'Which Category Intrest You',
@@ -251,35 +236,44 @@ export default {
 					text: 'Projects Completed'
 				}
 			],
-			swipper_list: [
+			project_items: [
 				{
-					img: '/static/main/swipper_img.png',
-					introduce: 'EDUCATION IHOLISTIC AND\nSPIRITUAL WELLNESS\nMASTERCLASS RECOMMENDED\nPROJECTS',
+					imgs: ['/static/main/project_img.png', '/static/api/project_2.png'],
+					introduce: 'EDUCATION | IHOLISTIC AND SPIRITUAL\nWELLNESS | MASTERCLASS\nRECOMMENDED PROJECTS',
 					day: 0,
 					title: '正念A1:佛教智慧核心的互動式旅程',
 					now_val: 22,
-					target: 1000
+					target: 1000,
+					type: '課程',
+					progress: '眾籌中/已成案',
+					deadline: new Date(2025, 11, 12),
+					describe: '為下一代重新想像古老經典'
 				},
 				{
-					img: '/static/main/swipper_img.png',
+					imgs: ['/static/main/project_img.png', '/static/api/project_2.png'],
 					introduce: 'EDUCATION IHOLISTIC AND\nSPIRITUAL WELLNESS\nMASTERCLASS RECOMMENDED\nPROJECTS',
-					day: 0,
+					day: 1,
 					title: '正念A1:佛教智慧核心的互動式旅程',
 					now_val: 0,
-					target: 1000
+					target: 100,
+					type: '課程',
+					progress: '眾籌中/已成案',
+					deadline: new Date(2025, 11, 12),
+					describe: '為下一代重新想像古老經典'
 				},
 				{
-					img: '/static/main/swipper_img.png',
+					imgs: ['/static/main/project_img.png', '/static/api/project_2.png'],
 					introduce: 'EDUCATION IHOLISTIC AND\nSPIRITUAL WELLNESS\nMASTERCLASS RECOMMENDED\nPROJECTS',
-					day: 0,
+					day: 2,
 					title: '正念A1:佛教智慧核心的互動式旅程',
 					now_val: 500,
-					target: 1000
+					target: 2000,
+					type: '課程',
+					progress: '眾籌中/已成案',
+					deadline: new Date(2025, 11, 12),
+					describe: '為下一代重新想像古老經典'
 				}
 			],
-			day_text: ' days left',
-			raised_text: 'Raised:',
-			target_text: 'Goal:',
 			proj_introduce: 'World is Full with Creativity',
 			proj_text: 'Together We can Bring More Creativity into the World',
 			proj_btn: 'START A PROJECT',
@@ -313,6 +307,5 @@ export default {
 
 <style lang="scss">
 @import '@/pages/common/common.scss';
-@import '@/pages/common/page.scss';
 @import 'main_home.scss';
 </style>

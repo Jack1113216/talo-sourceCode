@@ -1,0 +1,176 @@
+.page {
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 100vw;
+  height: 216.54vw;
+  overflow: hidden;
+  .box_1 {
+    background-color: rgba(237, 237, 237, 1);
+    height: 21.34vw;
+    width: 100vw;
+    .group_1 {
+      width: 80.8vw;
+      height: 5.87vw;
+      margin: 3.2vw 0 0 12.26vw;
+      .text_1 {
+        width: 9.87vw;
+        height: 5.87vw;
+        overflow-wrap: break-word;
+        color: rgba(0, 0, 0, 1);
+        font-size: 4.53vw;
+        font-family: SF Pro-Semibold;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 5.87vw;
+      }
+      .block_1 {
+        background-color: rgba(0, 0, 0, 1);
+        width: 5.34vw;
+        height: 3.47vw;
+        margin: 1.33vw 0 0 50.13vw;
+      }
+      .block_2 {
+        background-color: rgba(0, 0, 0, 1);
+        width: 4.8vw;
+        height: 3.47vw;
+        margin: 1.33vw 0 0 1.6vw;
+      }
+      .image_1 {
+        width: 7.47vw;
+        height: 3.47vw;
+        margin: 1.06vw 0 0 1.6vw;
+      }
+    }
+    .group_2 {
+      width: 90.67vw;
+      height: 5.87vw;
+      margin: 2.93vw 0 3.46vw 4.8vw;
+      .thumbnail_1 {
+        width: 3.74vw;
+        height: 3.74vw;
+        margin-top: 1.07vw;
+      }
+      .text_2 {
+        width: 25.6vw;
+        height: 5.87vw;
+        overflow-wrap: break-word;
+        color: rgba(17, 17, 17, 1);
+        font-size: 4.53vw;
+        font-family: PingFang TC-Semibold;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 5.87vw;
+        margin-left: 28.8vw;
+      }
+      .box_2 {
+        background-color: rgba(22, 22, 22, 1);
+        width: 4.27vw;
+        height: 1.07vw;
+        margin: 4vw 0 0 28.26vw;
+      }
+    }
+  }
+  .box_3 {
+    position: relative;
+    width: 100vw;
+    height: 33.07vw;
+    .text-wrapper_1 {
+      width: 25.6vw;
+      height: 5.87vw;
+      margin: -0.26vw 0 0 97.6vw;
+      .text_3 {
+        width: 25.6vw;
+        height: 5.87vw;
+        overflow-wrap: break-word;
+        color: rgba(36, 62, 88, 1);
+        font-size: 4.53vw;
+        font-family: PingFang TC-Semibold;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 5.87vw;
+      }
+    }
+    .image-wrapper_1 {
+      width: 90.4vw;
+      height: 5.87vw;
+      margin: 13.33vw 0 8.26vw 4.8vw;
+      .thumbnail_2 {
+        width: 5.34vw;
+        height: 4.8vw;
+        margin-top: 0.8vw;
+      }
+      .label_1 {
+        width: 5.87vw;
+        height: 5.87vw;
+      }
+    }
+    .box_4 {
+      background-color: rgba(255, 255, 255, 1);
+      position: absolute;
+      left: 0;
+      top: -0.26vw;
+      width: 100vw;
+      height: 13.07vw;
+      border: 1px solid rgba(187, 183, 183, 1);
+      .thumbnail_3 {
+        width: 3.47vw;
+        height: 3.2vw;
+        margin: 5.06vw 0 0 40.53vw;
+      }
+      .text_4 {
+        width: 9.07vw;
+        height: 5.87vw;
+        overflow-wrap: break-word;
+        color: rgba(154, 154, 154, 1);
+        font-size: 3.46vw;
+        font-family: PingFang TC-Regular;
+        font-weight: NaN;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 5.87vw;
+        margin: 3.73vw 0 0 1.6vw;
+      }
+      .thumbnail_4 {
+        width: 4.27vw;
+        height: 4.27vw;
+        margin: 4.53vw 0 0 5.06vw;
+      }
+      .text_5 {
+        width: 30.14vw;
+        height: 5.87vw;
+        overflow-wrap: break-word;
+        color: rgba(154, 154, 154, 1);
+        font-size: 3.46vw;
+        font-family: PingFang TC-Regular;
+        font-weight: NaN;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 5.87vw;
+        margin: 3.73vw 4.53vw 0 1.33vw;
+      }
+    }
+  }
+  .image_2 {
+    width: 94.67vw;
+    height: 53.6vw;
+    margin: -0.26vw 0 0 2.66vw;
+  }
+  .box_5 {
+    height: 106.14vw;
+    background: url(/static/lanhu_shouye/FigmaDDSSlicePNG69ed02ab49e779d1ab624befb9f9ec33.png)
+      100% no-repeat;
+    background-size: 100% 100%;
+    width: 100.27vw;
+    margin: 2.66vw 0 0 -0.26vw;
+    .group_3 {
+      background-color: rgba(8, 9, 9, 1);
+      border-radius: 20px;
+      width: 42.94vw;
+      height: 1.34vw;
+      margin: 102.93vw 0 0 30.4vw;
+    }
+  }
+}

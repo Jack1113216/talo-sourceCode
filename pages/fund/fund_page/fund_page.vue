@@ -1,7 +1,5 @@
 <template>
-	<view class="page">
-		<language_bar />
-		<title_bar />
+	<base_page>
 		<image class="head_img" src="/static/fund/fund_head.png" mode="widthFix" />
 		<view class="become_group total-center">
 			<view class="become_text">{{ become }}</view>
@@ -16,7 +14,7 @@
 						<my_input :title="option.title" :placeholder="option.placeholder" :type="option.type" :radiu_box="true" v-model="option.value" />
 					</view>
 					<!-- 项目详情 -->
-					<view class="option_space title_text">{{ project_title }}</view>
+					<!-- <view class="option_space title_text">{{ project_title }}</view>
 					<my_dropdown
 						class="option_space"
 						:title="project_infos[0].title"
@@ -54,17 +52,17 @@
 							:right="true"
 							v-model="project_infos[3].value"
 						/>
-					</view>
+					</view> -->
 
 					<!-- 类型选择 -->
-					<view class="flex-row justify-between" style="margin-top: 18rpx">
+					<!-- 	<view class="flex-row justify-between" style="margin-top: 18rpx">
 						<view class="flex-row" v-for="(item, index) in type_options" :key="index">
 							<view class="option_circle total-center">
 								<view class="option_circle_choose" v-show="index == type_choose" />
 							</view>
 							<view class="option_text">{{ item }}</view>
 						</view>
-					</view>
+					</view> -->
 					<!-- 文件消息 -->
 					<view class="option_space title_text">{{ other_title }}</view>
 					<view class="option_title" style="margin-top: 20rpx">{{ msg_title }}</view>
@@ -110,7 +108,7 @@
 				</view>
 			</view>
 		</view>
-	</view>
+	</base_page>
 </template>
 
 <script>

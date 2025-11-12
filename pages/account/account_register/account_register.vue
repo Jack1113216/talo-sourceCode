@@ -1,7 +1,5 @@
 <template>
-	<view class="page">
-		<language_bar />
-		<title_bar />
+	<base_page>
 		<form_window :title="form_title" :describe="form_describe" :btn_name="create_btn">
 			<template v-slot:main>
 				<view class="option_space" v-for="(option, index) in options_info" :key="index">
@@ -15,7 +13,7 @@
 			</template>
 		</form_window>
 		<view class="option_bottom"></view>
-	</view>
+	</base_page>
 </template>
 
 <script>

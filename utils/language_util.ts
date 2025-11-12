@@ -1,6 +1,8 @@
 let lan : {};
 export async function setLanguage(simple_name : string) {
+	simple_name = simple_name.toLowerCase()
 	var url = `/static/datas/languages/${simple_name}.json`;
+	console.log(url)
 	try {
 		lan = (await import(url)).default;
 	} catch { }

@@ -1,0 +1,176 @@
+.page {
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  width: 375px;
+  height: 812px;
+  overflow: hidden;
+  .box_1 {
+    background-color: rgba(237, 237, 237, 1);
+    height: 80px;
+    width: 375px;
+    .group_1 {
+      width: 303px;
+      height: 22px;
+      margin: 12px 0 0 46px;
+      .text_1 {
+        width: 37px;
+        height: 22px;
+        overflow-wrap: break-word;
+        color: rgba(0, 0, 0, 1);
+        font-size: 17px;
+        font-family: SF Pro-Semibold;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 22px;
+      }
+      .block_1 {
+        background-color: rgba(0, 0, 0, 1);
+        width: 20px;
+        height: 13px;
+        margin: 5px 0 0 188px;
+      }
+      .block_2 {
+        background-color: rgba(0, 0, 0, 1);
+        width: 18px;
+        height: 13px;
+        margin: 5px 0 0 6px;
+      }
+      .image_1 {
+        width: 28px;
+        height: 13px;
+        margin: 4px 0 0 6px;
+      }
+    }
+    .group_2 {
+      width: 340px;
+      height: 22px;
+      margin: 11px 0 13px 18px;
+      .thumbnail_1 {
+        width: 14px;
+        height: 14px;
+        margin-top: 4px;
+      }
+      .text_2 {
+        width: 96px;
+        height: 22px;
+        overflow-wrap: break-word;
+        color: rgba(17, 17, 17, 1);
+        font-size: 17px;
+        font-family: PingFang TC-Semibold;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 22px;
+        margin-left: 108px;
+      }
+      .box_2 {
+        background-color: rgba(22, 22, 22, 1);
+        width: 16px;
+        height: 4px;
+        margin: 15px 0 0 106px;
+      }
+    }
+  }
+  .box_3 {
+    position: relative;
+    width: 375px;
+    height: 124px;
+    .text-wrapper_1 {
+      width: 96px;
+      height: 22px;
+      margin: -1px 0 0 366px;
+      .text_3 {
+        width: 96px;
+        height: 22px;
+        overflow-wrap: break-word;
+        color: rgba(36, 62, 88, 1);
+        font-size: 17px;
+        font-family: PingFang TC-Semibold;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 22px;
+      }
+    }
+    .image-wrapper_1 {
+      width: 339px;
+      height: 22px;
+      margin: 50px 0 31px 18px;
+      .thumbnail_2 {
+        width: 20px;
+        height: 18px;
+        margin-top: 3px;
+      }
+      .label_1 {
+        width: 22px;
+        height: 22px;
+      }
+    }
+    .box_4 {
+      background-color: rgba(255, 255, 255, 1);
+      position: absolute;
+      left: 0;
+      top: -1px;
+      width: 375px;
+      height: 49px;
+      border: 1px solid rgba(187, 183, 183, 1);
+      .thumbnail_3 {
+        width: 13px;
+        height: 12px;
+        margin: 19px 0 0 152px;
+      }
+      .text_4 {
+        width: 34px;
+        height: 22px;
+        overflow-wrap: break-word;
+        color: rgba(154, 154, 154, 1);
+        font-size: 13px;
+        font-family: PingFang TC-Regular;
+        font-weight: NaN;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 22px;
+        margin: 14px 0 0 6px;
+      }
+      .thumbnail_4 {
+        width: 16px;
+        height: 16px;
+        margin: 17px 0 0 19px;
+      }
+      .text_5 {
+        width: 113px;
+        height: 22px;
+        overflow-wrap: break-word;
+        color: rgba(154, 154, 154, 1);
+        font-size: 13px;
+        font-family: PingFang TC-Regular;
+        font-weight: NaN;
+        text-align: center;
+        white-space: nowrap;
+        line-height: 22px;
+        margin: 14px 17px 0 5px;
+      }
+    }
+  }
+  .image_2 {
+    width: 355px;
+    height: 201px;
+    margin: -1px 0 0 10px;
+  }
+  .box_5 {
+    height: 398px;
+    background: url(/static/lanhu_shouye/FigmaDDSSlicePNG69ed02ab49e779d1ab624befb9f9ec33.png)
+      100% no-repeat;
+    background-size: 100% 100%;
+    width: 376px;
+    margin: 10px 0 0 -1px;
+    .group_3 {
+      background-color: rgba(8, 9, 9, 1);
+      border-radius: 20px;
+      width: 161px;
+      height: 5px;
+      margin: 386px 0 0 114px;
+    }
+  }
+}

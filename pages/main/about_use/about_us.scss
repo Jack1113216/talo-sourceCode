@@ -1,0 +1,75 @@
+.back_block {
+	background-color: rgba(28, 31, 46, 1);
+	width: 750rpx;
+	height: 224rpx;
+	// margin-top: 10rpx;
+}
+.content_group {
+	width: 676rpx;
+	margin: 78rpx 0 0 37rpx;
+	.about_img {
+		width: 676rpx;
+		height: 62rpx;
+	}
+	.about_img_text_box {
+		height: 98rpx;
+		border-bottom: 2rpx solid rgba(187, 183, 183, 1);
+		.about_img_text {
+			@extend .text;
+			width: 100%;
+			height: 44rpx;
+			color: rgba(154, 154, 154, 1);
+			font-size: 26rpx;
+			text-align: right;
+			margin-top: 28rpx;
+		}
+	}
+	.about_us {
+		height: 44rpx;
+		margin: 98rpx 0 0 15rpx;
+		.square_box {
+			background-color: rgba(55, 233, 178, 1);
+			width: 12rpx;
+			height: 12rpx;
+			margin-top: 16rpx;
+		}
+		.about_us_text {
+			@extend .text;
+			height: 44rpx;
+			color: rgba(101, 81, 198, 1);
+			font-size: 26rpx;
+			text-align: left;
+			line-height: 44rpx;
+			margin-left: 20rpx;
+		}
+	}
+	.title {
+		@extend .text;
+		height: 200rpx;
+		margin-top: 38rpx;
+		font-size: 50rpx;
+		font-weight: 900;
+		color: rgba(28, 31, 46, 1);
+		overflow-wrap: break-word;
+		white-space: pre-wrap;
+	}
+	.sub_title {
+		@extend .text;
+		margin-top: 30rpx;
+		margin-bottom: 48rpx;
+		font-size: 55rpx;
+		font-weight: 900;
+		color: rgba(28, 31, 46, 1);
+		overflow-wrap: break-word;
+		white-space: pre-wrap;
+	}
+	.content_text {
+		@extend .text;
+		font-size: 32rpx;
+		font-weight: 600;
+		color: rgba(83, 79, 79, 1);
+		overflow-wrap: break-word;
+		white-space: pre-wrap;
+		line-height: 55rpx;
+	}
+}

@@ -16,12 +16,50 @@
 			"style": {}
 		},
 		{
-			"path": "pages/introduction_page/introduction_page",
+			"path": "pages/raise_page/raise_page",
 			"style": {}
 		},
 		{
 			"path": "pages/fund/fund_page/fund_page",
 			"style": {}
+		},
+		{
+			"name": "lanhu_dianjidazuotutiaozhuanye",
+			"path": "pages/lanhu_dianjidazuotutiaozhuanye/index"
+		},
+		{
+			"name": "lanhu_muluraisegongneng",
+			"path": "pages/lanhu_muluraisegongneng/index"
+		},
+		{
+			"name": "lanhu_mulugongnengprojects",
+			"path": "pages/lanhu_mulugongnengprojects/index"
+		},
+		{
+			"name": "lanhu_shouye",
+			"path": "pages/lanhu_shouye/index"
+		},
+		{
+			"name": "lanhu_muluaboutusgongneng",
+			"path": "pages/lanhu_muluaboutusgongneng/index"
+		},
+		{
+			"name": "lanhu_mulu",
+			"path": "pages/lanhu_mulu/index"
+		},
+		{
+			"path": "pages/project/menu_project/menu_project",
+			"style": {}
+		},
+		{
+			"path": "pages/main/about_use/about_use",
+			"style": {}
+		},
+		{
+			"path": "pages/project/project_detail/project_detail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
 		}
 	],
 	"tabBar": {
